@@ -19,3 +19,7 @@ git status -s
 
 git diff
     It shows all the chages we have done, but very specify
+
+git diff --staged
+    shows all the changes that are in the staged fase
+
