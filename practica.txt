@@ -7,3 +7,7 @@ pwd
 git restore --staged <file name>
     restablece lo eliminado
 
+mv <old_file_name> <new_file_name>
+    changes the name of the file
+
+
