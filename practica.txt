@@ -17,3 +17,5 @@ mv <old_file_name> <new_file_name>
 git status -s
     its shows the list of all the files we had modifie or change
 
+git diff
+    It shows all the chages we have done, but very specify
