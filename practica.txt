@@ -1,0 +1,5 @@
+Cambiando los fondos
+Apuntes de Git
+
+pwd
+    print the route of the actual directory
