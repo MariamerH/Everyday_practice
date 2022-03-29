@@ -3,3 +3,7 @@ Apuntes de Git
 
 pwd
     print the route of the actual directory
+
+git restore --staged <file name>
+    restablece lo eliminado
+
