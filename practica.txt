@@ -12,4 +12,4 @@ mv <old_file_name> <new_file_name>
 
 .env
     file that you create por database, but for security is important create also a file .gitignore an specify in it all the files and directorys we don´t want to inlude in the repository, we do that for security rasons
-
+    when you commit the gitignore is with the pooint before I mean .gitignore
