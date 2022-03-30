@@ -31,3 +31,6 @@ git log --online
 
 git co -b
     Creates a new branch
+
+git cat
+    It shows all the content of the file
