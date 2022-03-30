@@ -23,3 +23,11 @@ git diff
 git diff --staged
     shows all the changes that are in the staged fase
 
+git log
+    shows all the history and author aff al commits and changes
+
+git log --online
+    shows the same git log but in a resume way
+
+git co -b
+    Creates a new branch
