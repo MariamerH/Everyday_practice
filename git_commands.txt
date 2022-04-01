@@ -96,3 +96,9 @@ abbreviation
         git st
     git branch 
         git br
+
+git last
+    you can see the last commit easily
+
+git --help
+    shows you all the git commands
