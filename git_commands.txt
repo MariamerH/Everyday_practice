@@ -80,3 +80,9 @@ to inspect something
 Renaming and Removing Remotes
     git remote rename pb <paul>
     git remote remove paul
+
+git tag
+    To show you a list
+        git tag -l <"v1.8.5*">
+    Annotated Tags
+        git tag -a <v1.4> -m <"my version 1.4">
