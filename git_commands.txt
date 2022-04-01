@@ -63,6 +63,6 @@ Options to limit the output of git log taked it from: https://git-scm.com/book/e
         Only show commits with a commit message containing the string
     -S
         Only show commits adding or removing code matching the string
-git commit --amend
-    
+git commit --amend <file_name>
+    This command takes your staging area and uses it for the commit, it opens you a file in the VS to change or to add comtheing you have forgotten to the commit
 
