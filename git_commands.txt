@@ -86,3 +86,13 @@ git tag
         git tag -l <"v1.8.5*">
     Annotated Tags
         git tag -a <v1.4> -m <"my version 1.4">
+
+abbreviation
+    git commit
+        git ci
+    git checkout
+        git co
+    git status
+        git st
+    git branch 
+        git br
