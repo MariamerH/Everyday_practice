@@ -1,8 +1,8 @@
 Cambiando los fondos
 Apuntes de Git
-from: https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things 
+from: https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things (it contains the book)
         videos
-        book
+        book (it saved in the web file in desktop)
 
 pwd
     print the route of the actual directory
@@ -102,3 +102,34 @@ git last
 
 git --help
     shows you all the git commands
+
+To make a new commit in the brancj
+    git commit -a -m <made other changes>
+
+Creating a new branch - This doesn´t changes you to the new branch you already create
+    git branch <name>
+
+To create a new branch and switch to it at the same time
+    git co -b <brand name>
+
+To move between branches
+    git co <branch or master or main>
+
+To merge
+    git merge <branch name>
+
+To delete a branch because ypu finish and everything is ok
+    git branch -d <hotfix>
+
+To know all the branch you have created
+    git branch
+
+To see the last commit on each branch
+    git branch -v
+
+To see which branches are already merged into the branch you’re on
+    git branch --merged
+
+To see all the branches that contain work you haven’t yet merged in
+    git branch --no-merged
+
