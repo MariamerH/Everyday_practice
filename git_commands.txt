@@ -63,6 +63,20 @@ Options to limit the output of git log taked it from: https://git-scm.com/book/e
         Only show commits with a commit message containing the string
     -S
         Only show commits adding or removing code matching the string
+
 git commit --amend <file_name>
     This command takes your staging area and uses it for the commit, it opens you a file in the VS to change or to add comtheing you have forgotten to the commit
 
+git remote -v
+    Shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote
+
+fetch - to give to you back a file you want to recuperate
+    git fetch <remote>
+        To get data from your remote projects
+
+to inspect something
+    git remote show origin
+
+Renaming and Removing Remotes
+    git remote rename pb <paul>
+    git remote remove paul
