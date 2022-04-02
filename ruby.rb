@@ -70,3 +70,14 @@ puts "Hola Mariamer"
         # we cand write <or>, but it´s better use the symbols (for the precedence)
     # !true / !false (negation operation - invierte los valores) it inverts the condition, ew can write not true or not false, but it´s better write the symbols (for the precedence)
 
+# Conditionals
+    #remenber unless / se puede colocar en una misma línea de código al igual que el if / se utiliza generalmente para una sóla línea, no se combina
+    # es mejor usar unless que if !xx
+
+# Ternary
+    #then
+        # puts (if user == "Uriel" then "Tutor" else "Visitante" end)
+    # remenber de conditional can be saved in a variable
+    #then asume que the condition its true
+    # Ternary operator <?:>
+        # if <condition> ? <result if the condition its true> : result if the condition its not true
