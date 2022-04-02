@@ -81,3 +81,11 @@ puts "Hola Mariamer"
     #then asume que the condition its true
     # Ternary operator <?:>
         # if <condition> ? <result if the condition its true> : result if the condition its not true
+
+#Case / in JS its Swicth
+    # case sth
+    # when sth / you can use many times when
+        # puts "xxx"
+    # else
+    # end
+            # Another way its write the puts before de case, and then we wont need write again puts / or you can specifiy multiple values for each condition, that´s depend of what you want to program
