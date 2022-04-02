@@ -107,3 +107,17 @@ puts "Hola Mariamer"
             # puts "in the position #{index} we have: #{variable}"
         # end
 
+# Operations with arrays - Methods with array
+    # array * 2 => lo multiplica, when we multiply, waht it really do is join
+    # for example array * "-" => it will appear 10 - 2 - 3....
+        # join: array.join(","), it will join all the elements in one string and if ypu include the coma, it´ll add the coma
+    # ordenar => array.sort
+        # but if we want in the opposite order we use array.reverse
+    # find
+        # array.include?(xx) => will retunr true or false
+    # first / last
+    # array.uniq
+        # it returns all the elements but exclude the ones that are repeated
+    # array.sample
+        # it returns one of the elements - de manera aleatoria
+
