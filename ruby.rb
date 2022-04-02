@@ -89,3 +89,11 @@ puts "Hola Mariamer"
     # else
     # end
             # Another way its write the puts before de case, and then we wont need write again puts / or you can specifiy multiple values for each condition, that´s depend of what you want to program
+
+# Arrays
+    # array.new(X) - when you want to create an array with a x numer of elements
+    # array[x] - when yoy wana call an specific index
+    # array[3] = 45 - when you wana add a value in a specific index
+    # array = %w[32 45 67] - whith the %w you only separate each index with an space
+    # array << sth - when ypu want to include (push) any new element in the array
+
