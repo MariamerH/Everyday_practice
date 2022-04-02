@@ -121,3 +121,11 @@ puts "Hola Mariamer"
     # array.sample
         # it returns one of the elements - de manera aleatoria
 
+# ranges - rangos - Be carfeul they are not strings, we can convert in an array with to.a / They don´t save all the elements, they save the first and the last, when we convert in an array or we iterate they will include all the elements
+    # var = (1..10) - we can combine then with each for example
+    # if I wanna iterate in a numerb of steps, for example 2 on 2, we use:
+        # .step (2)
+    # we can use also with ranges and arrays .max / .min, like de arrays
+
+
+
