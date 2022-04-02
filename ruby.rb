@@ -30,5 +30,28 @@ puts "Hola Mariamer"
     # \n it will print a line break
     # \t it will print tab
     # IO / Input / Output
-    # gets => the user will type something but it´s add a break line, that´s why we use getschomp
-        #getschomp
+    # gets => the user will type something but it´s add a break line, that´s why we use gets.chomp
+        #gets.chomp - remenber gets.chomp always will return a string
+
+# For classes, use CamelCase
+# residuo (residue) %
+# potencia (potential) **
+# precedencia (sino le indicamos orden de operación matemática): 
+    # 1.Potencia
+    # 2. multiplicación - división - residuo
+    # 3. suma y resta
+    # When 2 or more numeric operations are at the same level it will calculate in the appereance order
+    # But if you put () it will calculate first the operations inside the ()
+
+#Comparison
+    # <> <= it will returns true or false, depending of the result
+    # <=> it returns 3 results (operador de operación combinado)
+        # 1. In case are equal, it´ll return 0
+        # 2. In case the first is mayor than the second, it´ll return 1
+        # 3. In case the firts is minor than the second, it´ll return -1
+    # ==, returns true if both are exactly equal, remeber it compares values no the type, for example 1 == 1.0 it´ll return true
+        # if we want to compare type and at the same time value, we can use the method <.eql?>, for example 1.eql?(1.0), it´ll return false
+    # equal?, it´s very interesting, because it compares the object id
+    # To know if the are differents
+        # <!=>, returns true if they are differents, and false if they are equals
+
