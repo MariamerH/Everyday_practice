@@ -38,8 +38,16 @@ puts "Hola Mariamer"
 # potencia (potential) **
 # precedencia (sino le indicamos orden de operación matemática): 
     # 1.Potencia
-    # 2. multiplicación - división - residuo
-    # 3. suma y resta
+    # 2. !
+    # 3. multiplicación - división - residuo
+    # 4. suma y resta
+    # 5. <> <= >=
+    # 6. == <==> !=
+    # 7. &&
+    # 8. ||
+    # 9. Asigantion
+    # 10. not
+    # 11. or and
     # When 2 or more numeric operations are at the same level it will calculate in the appereance order
     # But if you put () it will calculate first the operations inside the ()
 
@@ -54,4 +62,11 @@ puts "Hola Mariamer"
     # equal?, it´s very interesting, because it compares the object id
     # To know if the are differents
         # <!=>, returns true if they are differents, and false if they are equals
+
+# Logic Operators
+    # <&&> AND operator, to add another condition of comparison, if both are true it´ll will return true, it´s mandatory both are true
+        # we cand write <and>, but it´s better use the symbols (for the precedence)
+    # <||> OR operator, it´s necesary just one of the two are true, to return true
+        # we cand write <or>, but it´s better use the symbols (for the precedence)
+    # !true / !false (negation operation - invierte los valores) it inverts the condition, ew can write not true or not false, but it´s better write the symbols (for the precedence)
 
