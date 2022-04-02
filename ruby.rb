@@ -94,6 +94,16 @@ puts "Hola Mariamer"
     # array.new(X) - when you want to create an array with a x numer of elements
     # array[x] - when yoy wana call an specific index
     # array[3] = 45 - when you wana add a value in a specific index
-    # array = %w[32 45 67] - whith the %w you only separate each index with an space
+    # array = %w[32 45 67] - whith the %w you only separate each index with an space, but every index its a string, sou if I need to convert in an integer or float I hava to convert
     # array << sth - when ypu want to include (push) any new element in the array
+
+    #Iterate with each (you can do it with arrays and hashes)
+    # the sintaxis is:
+        # variables. each do |variable|
+            # puts instruccion
+        # end
+    # when we wana iterate with 2 arguments, we can do like this:
+        # variables.each_with_index do |variable, index|
+            # puts "in the position #{index} we have: #{variable}"
+        # end
 
