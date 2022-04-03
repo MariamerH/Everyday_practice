@@ -127,5 +127,16 @@ puts "Hola Mariamer"
         # .step (2)
     # we can use also with ranges and arrays .max / .min, like de arrays
 
+# While & until
+    # while (index_song < playlist.lenght) && playing
+        # puts "playing #{playlist[index_song]}"
+        # index_song += 1
+        # print "puts 0 to stop recording"
+        # answer = gets().chomp.to_i
+        # playing = answer != 0
+    # end
 
+    # until is the opposite of while
 
+    # do while
+        # it starts with begin, then the condition and finalze with end until
