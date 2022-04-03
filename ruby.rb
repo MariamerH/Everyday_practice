@@ -6,6 +6,8 @@
     # Salir de la consola: <exit>
 
 puts "Hola Mariamer"
+
+# .object_id => to konw the objetc id
 # Then you can carry the file to console and write before <ruby>, then it will print the result (will run)
 # Another way its pust ruby followed by the filename in ruby and press enter (I Think its best), but you have to be in the folder
 
@@ -202,3 +204,11 @@ puts "Hola Mariamer"
     # hash.invert => change the keys inti values and the value sinto keys
     # if I want to merge 2 hashes
         # hash1.merge(hash2)
+
+# Simbols - They are not too common in other languages
+    # You can´t change it
+    # it will have always the same ID even if you call then in differents ways (lo recicla)
+    # It has the advantage when you need to compare
+    # You can use it when you don´t need to modofy the string
+    # When you don´t need aply string methods
+    # You can use it as names
