@@ -156,3 +156,24 @@ puts "Hola Mariamer"
         # 10.downto(1) do |i|
             # puts i
         # end
+
+# Matrices - Arrays - buscar en al documentación de Ruby "Matrix", tiene todo tipo de operaciones con matrices
+    # Se diferencia en que tienen más de una sola dimensión, son matrices cuando tienes un array de arrays
+    # Pero las dimensiones deben ser del mismo tamaño
+    # todos sus elementos deben ser números, sino rompe las funcionalidades matemáticas
+    # matriz = Matrix [[1,2,3,], [1,2,3,]]
+    # lo que noté es que para llamarla hay que colocar requiere 'matrix' / creo que porque lo convirtió en clase
+    # el ejercicio típico de la diagonal, sería:
+        # matriz.each(:diagonal) do |i|
+            # puts i
+        # end
+    # si el ejercicio me pide imprimir lo que está abajo de la diagonal
+        # matriz.each(:strict_lower) do |i| 
+            # puts i
+        # end
+    # si el ejercicio me pide imprimir lo que está arriba de la diagonal
+        # matriz.each(:strict_upper) do |i| 
+            # puts i
+        # end
+    # para corroborar si la matriz es diagonal (que todos los elementos fuera de la diagonal sean 0)
+        # matriz.diagonal?
