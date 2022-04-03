@@ -212,3 +212,11 @@ puts "Hola Mariamer"
     # You can use it when you don´t need to modofy the string
     # When you don´t need aply string methods
     # You can use it as names
+    # for the name of the method use snake_case
+
+# Splat operator <*>
+    # def hola_gente(*personas)
+        # do sth
+    # end
+        # puts hola_gente (23) => Hola 23 / it doesn´t matter the type
+    # También convierte un array en una lista de parámetros, es súper potente
