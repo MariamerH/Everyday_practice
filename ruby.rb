@@ -188,3 +188,17 @@ puts "Hola Mariamer"
         # hash.each do |key,value|
             # puts...
         # end
+
+# Operations with Hashes
+    # hash.lenght => number of element / keys
+    # hash.size => number of element / keys
+    # bolean, if ot has key => hashe.has_key?(key_name) / we ca do the same woth value
+    # hash.keys => it will return an array with all the keys
+    # hash.values => it will return an array with all the values
+    # hash.clear => delete all the elements inside the hash
+    # hash.delete(element) => deletes an specific element of a hash
+    # hash.empty? => verifys if the hash it´s clean
+    # If I wana know the key => hash.key("value")
+    # hash.invert => change the keys inti values and the value sinto keys
+    # if I want to merge 2 hashes
+        # hash1.merge(hash2)
