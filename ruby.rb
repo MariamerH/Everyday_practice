@@ -177,3 +177,14 @@ puts "Hola Mariamer"
         # end
     # para corroborar si la matriz es diagonal (que todos los elementos fuera de la diagonal sean 0)
         # matriz.diagonal?
+
+# Hashes
+    # Remenber they have {key => value}
+    #  They can have any kind of object
+    # We can access yo any element with the key => hash[key]
+    # to add a new element => hash[key] = value
+    # we can program the default value by => hash.default = :)
+    # we can iterate too / the difference is we have to specify the key and the value
+        # hash.each do |key,value|
+            # puts...
+        # end
