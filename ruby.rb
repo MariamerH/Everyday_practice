@@ -140,3 +140,19 @@ puts "Hola Mariamer"
 
     # do while
         # it starts with begin, then the condition and finalze with end until
+
+# Times - upto - downto
+    # Times
+        # 10.times do |i|
+            # puts i + 1
+        # end
+
+    # upto
+        # 1.upto(10) do |i|
+            # puts i
+        # end
+
+    # downto (lo inverso a upto)
+        # 10.downto(1) do |i|
+            # puts i
+        # end
