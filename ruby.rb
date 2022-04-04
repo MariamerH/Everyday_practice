@@ -220,3 +220,12 @@ puts "Hola Mariamer"
     # end
         # puts hola_gente (23) => Hola 23 / it doesn´t matter the type
     # También convierte un array en una lista de parámetros, es súper potente
+
+# Argumenrs and Params!, veru great!
+    # cuando defines un método, le puedes enviar como argumentos varios paramentros, por ej:
+        # def saludo (nombre:"", apellido:"") / los string serían los valores por default
+            # puts "Hola #{nombre} #{apellido}"
+        # end
+    # cuando los llamas puedes ser en orden o no, e incluso no llamarlos a los 2
+    # cuando quieres que un parámetro sea obligatorio seria: def saludo (nombre:, apellido:), es decir, sin los strings - que serían los valores por default, eso indica que si o si es obligatorio ese params
+    # también puedes incluir el splat, como params y agregar otros params despues, por ej. **options
