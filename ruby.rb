@@ -235,4 +235,12 @@ puts "Hola Mariamer"
 # polymorphism
     # When you give the same instruction (name) but every objetc respind in diffrents ways
     # Me encantó el ejemplo de la instrucción corte dada a un peluquero, actor y chef
-    
+
+# Blocks
+    # group of instruction code
+    # you can wirte with do - end / or with {}
+        # use do - end when the code has more than 1 line
+        # if the code has just one line use the {}, for example:
+            # [1,2,3,4,5,6].each { |number| puts number }
+    # the blocks always return a value, and that value is the last instruction
+    # and the blocks can recibe antoher blocks with methods inside
