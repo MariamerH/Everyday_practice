@@ -220,3 +220,8 @@ puts "Hola Mariamer"
     # end
         # puts hola_gente (23) => Hola 23 / it doesn´t matter the type
     # También convierte un array en una lista de parámetros, es súper potente
+
+# Methods scope - Alcance de métodos
+    # public, by default every method is public
+    # private, the can be call only inside de class, the son has the methods of the father even the privates ones / they can´t be called outside of the class just inside
+    # protected, it can be called even outside if the class but if they have the same type, the same family
