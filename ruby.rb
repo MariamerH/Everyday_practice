@@ -229,3 +229,26 @@ puts "Hola Mariamer"
     # cuando los llamas puedes ser en orden o no, e incluso no llamarlos a los 2
     # cuando quieres que un parámetro sea obligatorio seria: def saludo (nombre:, apellido:), es decir, sin los strings - que serían los valores por default, eso indica que si o si es obligatorio ese params
     # también puedes incluir el splat, como params y agregar otros params despues, por ej. **options
+
+# Class!, the best!
+    # la programación orientada a objetos (POO), es cuando las clases las diseñamos para que los obejtos se comporten
+    # como nosotros le indicamos, el ejemplo, de que al clase es la receta y los objetos los platos dle menú es lo mejor
+    # Class Video
+        # attr_accesor :minutes, :title
+        # def play
+        # en
+
+        # def pause
+        #end
+
+    # end
+
+    # con ésta clase creada puedo emepzar a programar objetos, por ej:
+        # video_30 = Video.new
+        # video_30.title = "MM"
+
+    # otro método clásico que tienen las clases es el método "Initialize", que en otros lenguajes se llama "constructor"
+    # la idea es que en ese método se hagan cosas que inicializan ése objeto, a ese método se le pueden pasar argumentos
+    # pero en ese caso, no te olvides de que si le das .new, debes pasarle la información (argumento) que haz establecido en initialize
+    # recomiendan que el método initialize sea lo más sencillo posible, porque sino las pruebas serán de terror
+    # también en comparación con otros lenguajes, si a ése método le incluimos un return "hola", cuando creemos el objeto no hará ese return
