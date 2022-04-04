@@ -252,3 +252,6 @@ puts "Hola Mariamer"
     # pero en ese caso, no te olvides de que si le das .new, debes pasarle la información (argumento) que haz establecido en initialize
     # recomiendan que el método initialize sea lo más sencillo posible, porque sino las pruebas serán de terror
     # también en comparación con otros lenguajes, si a ése método le incluimos un return "hola", cuando creemos el objeto no hará ese return
+
+# att_accesor, it´s read and chagne el argumento de initialize
+# también está attr_reader y write, pero el accesor hace todo, llamar y reescribe (como el update)
