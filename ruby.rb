@@ -260,3 +260,10 @@ puts "Hola Mariamer"
         # también se pueden llamar bloques entre sí
         # se recomienda yield, es más rápido, pero todo dependerá de lo que necesites diseñar
 
+# Lambda   
+    # Es una función anónima, me´todos que no tienen nombre
+    # Una lambda se comporta como un método
+        # Mientras que un proc se comporta como un bloque
+    # la diferencia en comportamiento de bloque y método es que si al método no le pasas los argumentos en el mismo orden y con la info, te dará error, mientras que el bloque no necesita eso
+    # Recuerda que cuando armas bloques y le incluyes return, allí terminaría todo aunque después tenga más instrucciones
+
