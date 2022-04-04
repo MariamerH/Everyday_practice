@@ -237,6 +237,7 @@ puts "Hola Mariamer"
     # Me encantó el ejemplo de la instrucción corte dada a un peluquero, actor y chef
 
 # Blocks
+    # they are the only thing they are not a object
     # group of instruction code
     # you can wirte with do - end / or with {}
         # use do - end when the code has more than 1 line
@@ -244,6 +245,7 @@ puts "Hola Mariamer"
             # [1,2,3,4,5,6].each { |number| puts number }
     # the blocks always return a value, and that value is the last instruction
     # and the blocks can recibe antoher blocks with methods inside
+    # Inside of the bloks you can´t put return
 
     # The famous YIELD
         # cuando diseñamos un método, y fuera de el colocamos un bloque con una instrucción que tiene el nombre del método
@@ -254,6 +256,7 @@ puts "Hola Mariamer"
         # Otra forma es al lado del nombre dle método colocar <&> con el nombre del bloque y dentro del método hacer nombre_del_bloque.call / también se puede dejar el yield
             # esto puede estar seguido de if block_given también
             # lo importante es que el <&bloque_name>, esté de último si al lado del nombre del método le paso varios argumentos
+            # el &block es un PROC, que si es un objeto y un método puede tener varios (estpo no es muy común)
         # también se pueden llamar bloques entre sí
         # se recomienda yield, es más rápido, pero todo dependerá de lo que necesites diseñar
 
