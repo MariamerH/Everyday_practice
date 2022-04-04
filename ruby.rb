@@ -244,3 +244,16 @@ puts "Hola Mariamer"
             # [1,2,3,4,5,6].each { |number| puts number }
     # the blocks always return a value, and that value is the last instruction
     # and the blocks can recibe antoher blocks with methods inside
+
+    # The famous YIELD
+        # cuando diseñamos un método, y fuera de el colocamos un bloque con una instrucción que tiene el nombre del método
+        # para que lo ejecute, en le método debo colocar en la parte interna la palabra yield, eso hace que lo incluya y ejecute
+        # yield funcionará, siempre y cuando tenga un bloque al que llamar, por lo que aunque el mpetodo se llame afuera sin bloque, no pasara nada
+        # para esto puede también ayudarnos <yield block_given?>, al ser booleano, se le puede agregar la condición if <yield if block_given?>
+        # de esta manera el método se ejecutará si tiene
+        # Otra forma es al lado del nombre dle método colocar <&> con el nombre del bloque y dentro del método hacer nombre_del_bloque.call / también se puede dejar el yield
+            # esto puede estar seguido de if block_given también
+            # lo importante es que el <&bloque_name>, esté de último si al lado del nombre del método le paso varios argumentos
+        # también se pueden llamar bloques entre sí
+        # se recomienda yield, es más rápido, pero todo dependerá de lo que necesites diseñar
+
