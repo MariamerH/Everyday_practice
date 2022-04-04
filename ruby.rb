@@ -231,3 +231,8 @@ puts "Hola Mariamer"
     # También las hijas pueden heredarlas, por lo que incluso si las modificas desde las hijas, cambian al padre
 
 # puts, también se puede colocar solo <p>
+
+# polymorphism
+    # When you give the same instruction (name) but every objetc respind in diffrents ways
+    # Me encantó el ejemplo de la instrucción corte dada a un peluquero, actor y chef
+    
