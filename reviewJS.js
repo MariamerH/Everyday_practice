@@ -19,6 +19,8 @@ Variable: crea un espacio en la memoria para guardar información
 por ej: var number = "suVAlor";
 la llamamos mediante:
     console.log(nombreVariable);
+Cuando le asignamos un valor a la vriable al momento de crearla, la estamos inicializando, sino sería
+una variable no inicializada (undefined)
 
 Tipos de Variable:
 
