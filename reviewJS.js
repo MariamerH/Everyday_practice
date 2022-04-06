@@ -65,4 +65,10 @@ Join different strings (Concatenate)
     var new = "a " + "b"; (para incluir el espacio lo puedes hacer después de a o antes de b)
         Otra alternativa para el espacio es entre ambas colos ... + " " + ...
 
+    Cuando los strings están dentro de 2 variables, podría ser:
+        var1 += var2;
+        console.log(var1); (recuerda que al colocar += se asigna un nuevo valor)
+
+
+
 */
