@@ -13,6 +13,7 @@ Boolean
 que empieces con comillas simples y termines con dobles el string, sería error de syntaxis
         Se recomienda utilizar siempre comiilas dobles y si hay otras comillas dentro de ese string serían simples
         Otra forma es colocar \ antes de las otras comillas dobles (antes de cada una)
+        Otra forma es comillas simples fuera y dobles adentro     
 Symbol
 Number
 Object - estructura que nos ermite relacionar sus partes
