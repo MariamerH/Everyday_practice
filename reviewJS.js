@@ -9,7 +9,9 @@ puedo seguir escribiendo sin problema, los cerramos a la inversa */
 Undefined - valor que se asigna por defecto cuando creamos la variable pero no le asignamos valor
 Null
 Boolean
-String
+    String - con comillas simples o dobles / pero no mezaclarlas, es decir
+que empieces con comillas simples y termines con dobles el string, sería error de syntaxis
+
 Symbol
 Number
 Object - estructura que nos ermite relacionar sus partes
@@ -39,5 +41,10 @@ Incrementar o reducir en valores diferentes a 1
     Para reducir
         var = var - x;
         var -= x;
-
+    Para multiplicar
+        var = var * x;
+        var *= x;
+    Para dividir
+        var = var / x;
+        Var /= x;
 */
