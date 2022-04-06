@@ -24,7 +24,7 @@ una variable no inicializada (undefined)
 
 Tipos de Variable:
 
-Incrementar el valor de una variable (hay varias opciones):
+Incrementar el valor de una variable en 1 (hay varias opciones):
     var = var + 1;
     var++; (incrementa el valor de la variable en 1 - pero ojo! solo en 1)
 
@@ -32,5 +32,12 @@ Reducir el valor de una variable en 1
     var = var - 1;
     var--;
 
+Incrementar o reducir en valores diferentes a 1
+    Para incrementar:
+        var = var + x;
+        var += x; (éste es el más usado), variable y valor, indica toma el valor, sumale 5 y asignaselo
+    Para reducir
+        var = var - x;
+        var -= x;
 
 */
