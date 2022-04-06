@@ -59,4 +59,10 @@ Otras Secuencias de Escape
     \t tabulación
     \b retroceso
     \f salto de página
+
+Join different strings (Concatenate)
+    Se hace con <+>
+    var new = "a " + "b"; (para incluir el espacio lo puedes hacer después de a o antes de b)
+        Otra alternativa para el espacio es entre ambas colos ... + " " + ...
+
 */
