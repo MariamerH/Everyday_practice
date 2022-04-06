@@ -24,4 +24,13 @@ una variable no inicializada (undefined)
 
 Tipos de Variable:
 
+Incrementar el valor de una variable (hay varias opciones):
+    var = var + 1;
+    var++; (incrementa el valor de la variable en 1 - pero ojo! solo en 1)
+
+Reducir el valor de una variable en 1
+    var = var - 1;
+    var--;
+
+
 */
