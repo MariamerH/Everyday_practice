@@ -79,6 +79,10 @@ Acceder al índice de lo que sea, por ejemplo un string
     console.log(var[2]);
 
 Para acceder al último índice
-    console.log(var[var.length -1]);
+    console.log(var[var.length - 1]);
+
+Para acceder al penúltimo índice
+    lenght - 2...- 3 y así sucesivamente
+    También, podemos declarar una 
 
 */
