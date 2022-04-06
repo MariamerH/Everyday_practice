@@ -14,8 +14,6 @@ que empieces con comillas simples y termines con dobles el string, sería error 
         Se recomienda utilizar siempre comiilas dobles y si hay otras comillas dentro de ese string serían simples
         Otra forma es colocar \ antes de las otras comillas dobles (antes de cada una)
         Otra forma es comillas simples fuera y dobles adentro     
-        Los caracteres (index) de la cadena no s epuedne cambiar después, habría que sustituir con una cadena nueva, lo que se conoce
-        como inmutabilidad de la cadena de caracteres
 Symbol
 Number
 Object - estructura que nos ermite relacionar sus partes
@@ -71,18 +69,5 @@ Join different strings (Concatenate)
         var1 += var2;
         console.log(var1); (recuerda que al colocar += se asigna un nuevo valor)
 
-Length
-    var = "x";
-    console.log(var.lenght);
-
-Acceder al índice de lo que sea, por ejemplo un string
-    console.log(var[2]);
-
-Para acceder al último índice
-    console.log(var[var.length - 1]);
-
-Para acceder al penúltimo índice
-    lenght - 2...- 3 y así sucesivamente
-    También, podemos declarar una 
 
 */
