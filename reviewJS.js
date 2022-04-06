@@ -78,4 +78,7 @@ Length
 Acceder al índice de lo que sea, por ejemplo un string
     console.log(var[2]);
 
+Para acceder al último índice
+    console.log(var[var.length -1]);
+
 */
