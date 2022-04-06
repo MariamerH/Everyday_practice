@@ -49,4 +49,14 @@ Incrementar o reducir en valores diferentes a 1
     Para dividir
         var = var / x;
         Var /= x;
+
+Otras Secuencias de Escape
+    \' Comilla simple
+    \"" comillas dobles
+    \\ barra invertida => asi se vería una sola barra invertida
+    \n línea nueva => aparece lo que le sigue en otra línea
+    \r retorno de carro
+    \t tabulación
+    \b retroceso
+    \f salto de página
 */
