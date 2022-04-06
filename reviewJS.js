@@ -70,5 +70,4 @@ Join different strings (Concatenate)
         console.log(var1); (recuerda que al colocar += se asigna un nuevo valor)
 
 
-
 */
